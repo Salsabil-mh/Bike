@@ -1,0 +1,120 @@
+.parent{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-image: url(../images/road4.png);
+}
+.bike1, .bike3, .bike5, .bike7{
+    position: absolute;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+.bike2, .bike4, .bike6, .bike8{
+    animation-duration: 3s;
+    position: absolute;
+    animation-fill-mode: forwards;
+    right: 0px;
+}
+.bike1{
+    animation-name: moving1 ;
+    top:0;
+}
+@keyframes moving1 {
+    0%{
+        left:0;
+    }
+    100%{
+        left:90%;
+    }
+}
+.bike2{
+    animation-name: moving2 ;
+    animation-delay: 3s;
+    top:121px;
+}
+@keyframes moving2 {
+     0%{
+        right: 0px;
+    }
+    100%{
+        right:90%;
+    }
+}
+.bike3{
+    animation-name: moving3 ;
+    top:242px;
+    animation-delay: 6s;
+}
+@keyframes moving3 {
+    0%{
+        left:0;
+    }
+    100%{
+        left:90%;
+    }
+} 
+.bike4{
+    animation-name: moving4 ;
+    top:363px;
+    animation-delay: 9s;
+}
+@keyframes moving4 {
+    0%{
+        right: 0px;
+    }
+    100%{
+        right:90%;
+    }
+}
+.bike5{
+    animation-name: moving5 ;
+    top:494px;
+    animation-delay: 12s;
+}
+@keyframes moving5 {
+    0%{
+        left:0;
+    }
+    100%{
+        left:90%;
+    }
+}
+.bike6{
+    animation-name: moving6 ;
+    top:615px;
+    animation-delay: 15s;
+}
+@keyframes moving6 {
+     0%{
+        right: 0px;
+    }
+    100%{
+        right:90%;
+    }
+}
+.bike7{
+    animation-name: moving7 ;
+    top:736px;
+    animation-delay: 18s;
+}
+@keyframes moving7 {
+    0%{
+        left:0;
+    }
+    100%{
+        left:90%;
+    }
+}
+.bike8{
+    animation-name: moving8 ;
+    top:847px;
+    animation-delay: 21s;
+}
+@keyframes moving8 {
+     0%{
+        right: 0px;
+    }
+    100%{
+        right:90%;
+    }
+}
